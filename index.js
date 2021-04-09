@@ -11,14 +11,14 @@ class Tree {
 
 }
 
-class Decidious extends Tree {
+class Deciduous extends Tree {
     constructor(species, name) {
         super(species)
         this.name = name
     }
 
     static definition() {
-        return `${super.definition()} Decidious trees shed their leaves annually.`
+        return `${super.definition()} Deciduous trees shed their leaves annually.`
     }
 }
 
